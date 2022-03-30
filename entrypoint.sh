@@ -10,8 +10,6 @@ tar -C /usr/local -xzf go1.17.2.linux-amd64.tar.gz
 echo "Add the go bin path to the terminal environment."
 export PATH=$PATH:/usr/local/go/bin
 
-echo "$Path"
-go version
+echo "printing go"
+go 
 
-# prints go version
-echo "::go version::$version"
