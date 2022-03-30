@@ -11,4 +11,5 @@ echo "Add the go bin path to the terminal environment."
 export PATH=$PATH:/usr/local/go/bin
 
 version=$go version
+# prints go version
 echo "::go version::$version"
